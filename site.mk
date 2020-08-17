@@ -11,7 +11,6 @@ GLUON_FEATURES := \
 	ebtables-filter-ra-dhcp \
 	mesh-batman-adv-15 \
 	mesh-vpn-fastd \
-	mesh-vpn-tunneldigger \
 	radv-filterd \
 	respondd \
 	status-page \
@@ -57,7 +56,7 @@ GLUON_REGION ?= eu
 GLUON_LANGS ?= en de
 
 # Build only sysupgrade images for deprecated devices
-GLUON_DEPRECATED ?= upgrade
+GLUON_DEPRECATED ?= sysupgrade
 
 # Mesh protocol
 GLUON_WLAN_MESH ?= 11s
