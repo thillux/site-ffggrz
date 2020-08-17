@@ -55,8 +55,8 @@ GLUON_REGION ?= eu
 # Languages to include
 GLUON_LANGS ?= en de
 
-# Build only sysupgrade images for deprecated devices
-GLUON_DEPRECATED ?= sysupgrade
+# Build all images for deprecated devices
+GLUON_DEPRECATED ?= full
 
 # Mesh protocol
 GLUON_WLAN_MESH ?= 11s
